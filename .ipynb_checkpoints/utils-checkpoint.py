@@ -20,3 +20,11 @@ def load_coffee_data():
         i += 1
 
     return (X, Y.reshape(-1, 1))
+
+
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+
+def reshape_dataset(x):
+    return x.reshape(x.shape[0],-1)
