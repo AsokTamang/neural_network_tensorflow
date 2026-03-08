@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 def load_coffee_data():
     """ Creates a coffee roasting data set.
         roasting duration: 12-15 minutes is best
@@ -28,3 +29,5 @@ def sigmoid(x):
 
 def reshape_dataset(x):
     return x.reshape(x.shape[0],-1)
+
+
