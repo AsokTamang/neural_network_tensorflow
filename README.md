@@ -82,7 +82,7 @@ multiclass-digit-recognition/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/multiclass-digit-recognition.git
+git clone https://github.com/AsokTamang/neural_network_tensorflow
 cd multiclass-digit-recognition
 ```
 
